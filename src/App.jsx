@@ -1,23 +1,14 @@
 import Blog from "./Blog";
 import UserCard from "./UserCard";
+import Increment from "./Hook"
+import Buton from "./Exercises/Exercise4"
 function App(){
   return(
-     <div>
-      <UserCard
-        name="Kouther"
-        email="kouther@gmail.com"
-      />
+    <>
+    <Buton/>
+    </>
+    
 
-      <UserCard
-        name="Ahmed"
-        email="ahmed@gmail.com"
-      />
-
-      <UserCard
-        name="Mohamed"
-        email="mohamed@gmail.com"
-      />
-    </div>
   )
   
 }
