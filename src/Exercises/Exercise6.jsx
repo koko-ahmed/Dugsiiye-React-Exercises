@@ -9,7 +9,7 @@ function GreetingTitle() {
     } else {
       document.title = `${Greating}, ${Name}`;
     }
-  }, [Name, Greating]);
+  }, [Name]);
   return (
     <div>
       <h2>Enter your name:</h2>
