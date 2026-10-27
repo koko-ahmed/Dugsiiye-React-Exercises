@@ -1,13 +1,12 @@
-import Blog from "./Blog";
-import UserCard from "./UserCard";
-import Increment from "./Hook"
-import Buton from "./Exercises/Exercise4"
-import ShoppingCart from "./Exercises/Exercise5";
+
+import GreetingTitle from "./Exercises/Exercise6"
 function App(){
   return(
     <>
-    <ShoppingCart />
+    {/* <ShoppingCart /> */}
     {/* <Buton/> */}
+    <GreetingTitle/>
+    
     </>
     
 

@@ -79,6 +79,8 @@ const ShoppingCart = () => {
 
       <input
         type="number"
+        min={0}
+        step={1}
         placeholder="Product price"
         value={price}
         onChange={(e) => setPrice(e.target.value)}
