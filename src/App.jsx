@@ -1,9 +1,9 @@
-import LoginForm from './Exercises/Exercise11';
+import Counter from './Exercises/Exercise12';
 
 const App = () => {
   return (
     <div>
-      <LoginForm />
+      <Counter />
     </div>
   );
 };
