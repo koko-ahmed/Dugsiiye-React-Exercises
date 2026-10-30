@@ -1,9 +1,9 @@
-import Counter from './Exercises/Exercise12';
+import CounterWithReducer  from './Exercises/Exercise13';
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <CounterWithReducer  />
     </div>
   );
 };
